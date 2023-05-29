@@ -1,1 +1,237 @@
 /* ------------------------------- Coloque sua estilização aqui ------------------------------- */
+
+@import url(https://fonts.google.com/specimen/Inter?query=inter);
+
+:root {
+    --background: #212529;
+    --primeiraSpanColor: #364FC7;
+    --backgroundSpan: #4C6EF5;
+    --headerbacground: #191C1F
+}
+
+body {
+    width: 100vw;
+    background-color: var(--background);
+    font-family: 'inter', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+
+
+}
+
+header {
+    background-color: var(--headerbacground);
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+
+}
+.espaco{
+    margin-top: 90px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.title {
+    color: white;
+
+}
+
+.primeiroParag {
+    text-align: center;
+    line-height: 25px;
+}
+
+.first {
+    color: var(--primeiraSpanColor)
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    background-color: var(--backgroundSpan);
+    color: white;
+    padding: 8px;
+    width: 78px;
+    height: 25px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+p {
+    color: #CED4DA;
+}
+
+h1 {
+    color: white;
+
+    text-align: center;
+
+}
+
+button {
+    color: white;
+    background-color: var(--background);
+    border: 1px solid white;
+    width: 200px;
+    height: 45px;
+}
+.parag{
+    margin-top: 10px;
+
+}
+
+h2,h3 {
+    color: white;
+}
+
+.nextClass {
+    background-color: var(--backgroundSpan);
+    color: white;
+    width: 200px;
+    height: 30px;
+    padding: 13px;
+    text-align: center;
+ 
+}
+
+.paragPadrao {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.quemSomos {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--headerbacground);
+    margin-top: 155px;
+    padding: 70px;
+   
+}
+
+.outro {
+    height: 271px;
+    width: 473px;
+    border-radius: 0px;
+ 
+
+}
+
+.quadro {
+    display: flex;
+    justify-content: center;
+   margin-right: 193px;
+
+}
+
+.modal__controller {
+    background-color: var(--background);
+    width: 400px;
+    height: 320px;
+    border-color: var(--primeiraSpanColor);
+    padding: 0;
+}
+
+.modal__controller::backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal__container {
+    background-color: var(--background);
+    width: 400px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modal__close {
+    width: 40px;
+    background-color: #212529;
+    border: none;
+    font-size: 17px;
+    margin-top: 17px;
+
+}
+
+.modal__text {
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+input {
+    background-color: var(--headerbacground);
+    width: 350px;
+    height: 45px;
+    border: none;
+    border-radius: 2px;
+    align-self: center;
+    margin-bottom: 25px;
+}
+
+.enter {
+    background-color: var(--backgroundSpan);
+    border: none;
+    align-self: center;
+    margin-bottom: 25px;
+    width: 300px;
+
+}
+
+.aluno {
+width: 700px;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.space {
+    margin-left: 50px;
+}
+li{
+    list-style: none;
+}
+
+.coment{
+    background-color: var(--backgroundSpan);
+    margin-left: 1100px;
+    width: 350px;
+    height: 290px;
+    text-align: center;
+    margin-top: -420px;
+    padding: 70px;
+    line-height: 27px;
+
+    
+    }
+    footer {
+        background-color: var(--headerbacground);
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        
+        bottom: 0;
+    }
+    
