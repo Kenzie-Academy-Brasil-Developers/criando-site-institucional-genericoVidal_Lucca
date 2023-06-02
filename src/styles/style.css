@@ -10,7 +10,7 @@
 }
 
 body {
-
+    margin: 0;
     background-color: var(--background);
     font-family: 'inter', sans-serif;
 }
@@ -42,7 +42,7 @@ header {
 header div {
     display: flex;
     justify-content: space-between;
-   
+
 }
 
 
@@ -113,6 +113,8 @@ h3 {
     height: 30px;
     padding: 13px;
     text-align: center;
+    margin-top: 800px;
+
 
 }
 
@@ -123,31 +125,44 @@ h3 {
 }
 
 
-.whoAreWe {
+.who_are_we {
     display: flex;
     justify-content: space-between;
     background-color: var(--headerbacground);
     margin-top: 155px;
-    padding: 100px 200px 100px 200px;;
+    padding: 100px 200px 100px 200px;
 
 }
 
-.fix {
+.course_info {
     margin-left: 100px;
+
 }
 
-.other {
+.questions {
     height: 271px;
     width: 400px;
     border-radius: 0px;
 
 
+
 }
 
-.frame {
+.questions_frame {
     display: flex;
-justify-content: space-evenly;
+    justify-content: space-evenly;
+    margin-top: 40px;
 
+}
+
+.info_title {
+    margin-top: 70px;
+
+
+}
+
+.info_parag {
+    margin-top: 15px;
 
 
 }
@@ -188,7 +203,7 @@ justify-content: space-evenly;
 
 }
 
-.close {
+.modal_close {
     width: 35px;
     height: 30px;
     padding: 7px;
@@ -225,21 +240,28 @@ input {
 }
 
 .student {
-  display: flex;
-margin-bottom: 50px;
-width: 800px;
+    display: flex;
+    margin-bottom: 70px;
+    width: 800px;
 
 
 
 }
-.test{
-display: flex;
+
+.test {
+    display: flex;
     justify-content: space-evenly;
     margin-top: 60px;
 
 
 }
-.space {
+
+.second_class {
+    margin-top: 40px;
+
+}
+
+.student_info {
     margin-left: 50px;
 }
 
@@ -247,7 +269,7 @@ li {
     list-style: none;
 }
 
-.coment {
+.student_coment {
     background-color: var(--backgroundSpan);
     width: 320px;
     height: 290px;
@@ -262,11 +284,7 @@ li {
 
 footer {
     background-color: var(--headerbacground);
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    bottom: 0;
+    text-align: center;
+    padding: 15px 0 15px 0;
+
 }
