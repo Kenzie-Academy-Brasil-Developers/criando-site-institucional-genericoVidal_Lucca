@@ -1,0 +1,16 @@
+/* ------------------------------- Coloque sua estilização aqui ------------------------------- */
+
+@import url(https://fonts.google.com/specimen/Inter?query=inter);
+
+:root {
+    --background: #212529;
+    --primeiraSpanColor: #364FC7;
+    --backgroundSpan: #4C6EF5;
+    --headerbacground: #191C1F
+}
+
+body {
+    margin: 0;
+    background-color: var(--background);
+    font-family: 'inter', sans-serif;
+}

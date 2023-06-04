@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+
+}
+
+.generic {
+    font-size: 20px;
+    color: #F8F9FA;
+    margin-left: 200px;
+
+}
+
+header {
+    background-color: var(--headerbacground);
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button {
+    color: white;
+    background-color: var(--background);
+    border: 1px solid white;
+    width: 200px;
+    height: 45px;
+    margin-right: 200px;
+    cursor: pointer;
+}

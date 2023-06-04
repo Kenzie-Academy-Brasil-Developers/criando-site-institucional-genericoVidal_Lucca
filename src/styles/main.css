@@ -1,0 +1,170 @@
+.firstTitle {
+    margin-top: 120px;
+}
+
+
+.primeiroParag {
+    text-align: center;
+    line-height: 25px;
+}
+
+.first {
+    color: var(--primeiraSpanColor)
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    background-color: var(--backgroundSpan);
+    color: white;
+    padding: 8px;
+    width: 78px;
+    height: 25px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+p {
+    color: #CED4DA;
+}
+
+h1 {
+    color: white;
+
+    text-align: center;
+
+}
+
+button {
+    color: white;
+    background-color: var(--background);
+    border: 1px solid white;
+    width: 200px;
+    height: 45px;
+    margin-right: 200px;
+    cursor: pointer;
+}
+
+button :hover {
+    background-color: aqua;
+
+}
+
+
+.parag {
+    margin-top: 10px;
+
+}
+
+h2,
+h3 {
+    color: white;
+}
+
+.nextClass {
+    background-color: var(--backgroundSpan);
+    color: white;
+    width: 200px;
+    height: 30px;
+    padding: 13px;
+    text-align: center;
+    margin-top: 800px;
+
+
+}
+
+.paragTwo {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.who_are_we {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--headerbacground);
+    margin-top: 155px;
+    padding: 100px 200px 100px 200px;
+
+}
+
+.course_info {
+    margin-left: 100px;
+
+}
+
+.questions {
+    height: 271px;
+    width: 400px;
+    border-radius: 0px;
+
+
+
+}
+
+.questions_frame {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+}
+
+.info_title {
+    margin-top: 70px;
+
+
+}
+
+.info_parag {
+    margin-top: 15px;
+
+
+}
+
+.student {
+    display: flex;
+    margin-bottom: 70px;
+    width: 800px;
+
+
+
+}
+
+.test {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+
+
+}
+
+.second_class {
+    margin-top: 40px;
+
+}
+
+.student_info {
+    margin-left: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+.student_coment {
+    background-color: var(--backgroundSpan);
+    width: 320px;
+    height: 290px;
+    text-align: center;
+    padding: 70px;
+    line-height: 27px;
+    margin-top: 50px;
+
+
+
+}

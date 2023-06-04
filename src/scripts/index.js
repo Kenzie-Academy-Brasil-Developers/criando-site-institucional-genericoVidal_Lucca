@@ -10,6 +10,10 @@ function handleModal() {
     closeButton.addEventListener('click', function () {
         modalController.close();
     });
+
+
 }
+
+
 
 handleModal()
